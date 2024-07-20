@@ -22,7 +22,7 @@ config wifi-iface 'trm_uplink3'
 	option mode 'sta'
 	option network 'trm_wwan'
 	option ssid 'BI4PCS'
-	option encryption 'psk2+ccmp'
 	option key 'a88888888'
+	option encryption 'psk-mixed+tkip'
 	option disabled '0'
 
